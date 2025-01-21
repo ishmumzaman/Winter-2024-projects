@@ -1,6 +1,6 @@
 # 2D Banana Attack Game
 
-This project is a humorous 2D game created using the pygame library. (Initial idea was to make a Space Invasion like game)The main idea came from a personal interest in game development and a desire to learn how pygame works. The player sprite is a picture of the developer, and the enemy sprite is a picture of a friend. This was done as a playful gift, where a banana projectile is used to shoot the friend’s image. Through making this project, the developer gained a deeper understanding of how event loops, collisions, sprite movement, and sound playback function in pygame.
+This project is a humorous 2D game created using the pygame library. (Initial idea was to make a Space Invasion like game)The main idea came from a personal interest in game development and a desire to learn how pygame works. The player sprite is a picture of me, and the enemy sprite is a picture of a friend. I made this project as a birthday gift, where a banana projectile is used to shoot my friend’s image. Through making this project, I gained a deeper understanding of how event loops, collisions, sprite movement, and sound playback function in pygame.
 
 ## Summary of the Game
 
@@ -18,7 +18,7 @@ The script calls pygame.init() to initialize the library. It then creates an 800
 
 ### Player Movement
 
-The player’s image is loaded and displayed at a chosen position near the bottom of the screen. Horizontal movement is controlled by a variable that updates the player’s x coordinate in the main loop. There are checks to ensure the player sprite remains within screen boundaries.
+The player’s (my) image is loaded and displayed at a chosen position near the bottom of the screen. Horizontal movement is controlled by a variable that updates the player’s x coordinate in the main loop. There are checks to ensure the player sprite remains within screen boundaries.
 
 ### Enemy Behavior
 
@@ -50,4 +50,4 @@ The game loop constantly checks for the player closing the window and for enemy 
 
 ## Learning Outcomes
 
-In building this game, the developer learned the basics of pygame, including game loops, event handling, collision detection, and audio playback. The project served as a fun introduction to game development and offered a chance to customize all visuals and sounds, ultimately producing a humorous shooter game.
+In building this game, I learned the basics of pygame, including game loops, event handling, collision detection, and audio playback. The project served as a fun introduction to game development and offered a chance to customize all visuals and sounds, ultimately producing a humorous shooter game.
