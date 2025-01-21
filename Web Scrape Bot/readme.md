@@ -1,0 +1,11 @@
+## Web Scrape Bot
+
+This Python script demonstrates how to retrieve specific data from a website by sending HTTP requests and parsing the HTML content. The script focuses on extracting the titles of books that have a four or five star rating from the Books to Scrape website. It uses the requests library to fetch the HTML from each page of the website and then employs the BeautifulSoup library to navigate and filter the HTML tags.
+
+The script begins by defining a base URL that includes a placeholder for the page number. This allows the code to loop through multiple pages of the website. The range function in the for loop indicates that it will visit pages from 1 to 50, creating the final URL by using the format method on the base URL. After getting the HTTP response for each page, the script converts the text content into a BeautifulSoup object, which makes it easier to filter and extract the required elements.
+
+Inside the loop, the code selects all the book containers on the page by looking for elements that have the class product_pod. Each container is then examined to determine if it has a rating of four or five stars by checking whether certain classes are present in the HTML. The star rating is indicated by star-rating.Four or star-rating.Five. When a book matches one of those ratings, the title is retrieved by looking at the a tag within the product_pod container. That title is appended to a list named high_rated_titles. 
+
+At the end of the script, all high-rated book titles are printed. This gives a quick overview of which books have a rating of four or five stars within the specified range of pages. The commented code at the bottom shows additional examples of how to test or inspect smaller segments of the website by retrieving and parsing fewer pages, but that code is not executed.
+
+This project offers a clear demonstration of web scraping fundamentals. It shows how to structure a loop that visits multiple pages of a site, how to parse HTML to find specific elements, and how to store the data in a Python list for later use or display. By changing the target selectors in BeautifulSoup or adjusting the base URL, it is possible to adapt this script to scrape many other websites in a similar manner.
