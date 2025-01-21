@@ -1,6 +1,6 @@
 # Hangman
 
-This Hangman script is one of the earliest Python projects created to explore basic programming concepts and test overall Python skills. It uses fundamental elements such as loops, conditional statements, list manipulations, and user input. The program selects a random word from a predefined list and then challenges the user to guess it one letter at a time.
+This Hangman script is one of my earliest Python projects created to explore basic programming concepts and test my overall Python skills. It uses fundamental elements such as loops, conditional statements, list manipulations, and user input. The program selects a random word from a predefined list and then challenges the user to guess it one letter at a time.
 
 ## Core Ideas and Logic
 
@@ -22,6 +22,4 @@ You can implement a difficulty level system by adjusting the number of lives or 
 You can provide hints or display previously guessed letters to assist the user.  
 You can adapt the script to run in a graphical interface rather than the console for a more interactive feel.
 
-## Conclusion
 
-This Hangman script offers a simple yet engaging way to practice Python. It demonstrates string manipulation, list handling, loops, and conditional checks. It is a foundational project that can be expanded with new features to turn it into a more dynamic and challenging game.
