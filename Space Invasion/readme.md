@@ -1,6 +1,6 @@
-# Banana Attack Game
+# 2D Banana Attack Game
 
-This project is a humorous 2D game created using the pygame library. The main idea came from a personal interest in game development and a desire to learn how pygame works. The player sprite is a picture of the developer, and the enemy sprite is a picture of a friend. This was done as a playful gift, where a banana projectile is used to shoot the friend’s image. Through making this project, the developer gained a deeper understanding of how event loops, collisions, sprite movement, and sound playback function in pygame.
+This project is a humorous 2D game created using the pygame library. (Initial idea was to make a Space Invasion like game)The main idea came from a personal interest in game development and a desire to learn how pygame works. The player sprite is a picture of the developer, and the enemy sprite is a picture of a friend. This was done as a playful gift, where a banana projectile is used to shoot the friend’s image. Through making this project, the developer gained a deeper understanding of how event loops, collisions, sprite movement, and sound playback function in pygame.
 
 ## Summary of the Game
 
