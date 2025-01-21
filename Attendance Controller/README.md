@@ -1,5 +1,5 @@
 # **Project Overview**
-This Python script demonstrates how to perform face recognition in real time using a webcam feed. It leverages the power of several popular libraries—most notably OpenCV, face_recognition, NumPy, and datetime—to detect faces, compare them against a database of known employees, and log attendance data. The overall workflow involves:
+This Python script demonstrates how to perform face recognition in real time using a webcam feed. It leverages the power of several popular libraries, most notably OpenCV, face_recognition, NumPy, and datetime, to detect faces, compare them against a database of known employees, and log attendance data. The overall workflow involves:
 
 - Collecting employee images into a database (a folder named *Employees*).
 - Encoding all known faces to numerical representations using the **face_recognition** library.
@@ -15,8 +15,8 @@ By coupling these key steps, the script can efficiently identify individuals and
 
 ## **Face Detection and Encoding**
 - The script reads each image in the *Employees* folder and converts it from the default BGR color format to RGB (as required by the **face_recognition** library).
-- The `face_recognition.face_encodings()` function generates a numerical encoding (an array of 128 measurements or features) for each face. These features include subtle details like the distances between eyes, the shape of cheekbones, jawlines, etc.
-- The generated encodings are stored in a list called `encoded_employee_list`, which acts as the reference database.
+- The face_recognition.face_encodings() function generates a numerical encoding (an array of 128 measurements or features) for each face. These features include subtle details like the distances between eyes, the shape of cheekbones, jawlines, etc.
+- The generated encodings are stored in a list called encoded_employee_list, which acts as the reference database.
 
 ## **Real-Time Webcam Capture**
 - Using OpenCV, the script activates the webcam (`cv2.VideoCapture(0)`) and captures a single frame.
