@@ -1,4 +1,5 @@
 Project Overview
+
 This Python script demonstrates how to perform face recognition in real time using a webcam feed. It leverages the power of several popular libraries—most notably OpenCV, face_recognition, NumPy, and datetime—to detect faces, compare them against a database of known employees, and log attendance data. The overall workflow involves:
 
 *Collecting employee images into a database (a folder named Employees).
