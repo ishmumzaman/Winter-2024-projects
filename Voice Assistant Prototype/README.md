@@ -1,4 +1,4 @@
-## Expanded Description
+## Description
 
 This Python voice assistant is designed to automate day to day tasks by listening to spoken commands and executing the appropriate actions. It uses multiple libraries, including pyttsx3 for text to speech, speech_recognition for converting speech into text, and pywhatkit for searching and playing content on YouTube. The main goal was to learn how these libraries work in harmony while also creating a convenient tool for daily use.
 
